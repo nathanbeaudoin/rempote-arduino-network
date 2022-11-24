@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>add</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <select name="fichier" id="fichier" class="fichier" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+      <option value="">fichier</option>
+       <option value="http://192.168.1.45/code%20page%20web/index.html">acceuil</option>
+       <option value="http://192.168.1.45/code%20page%20web/set.html">parametre</option>
+       <option value="http://192.168.1.45/code%20page%20web/add.html">ajouter ou modifier</option>
+      </select>
+   </div>
+
+
+    <a href="index.html">menu principal</a>
+    <p id="cook"></p>
+
+
+    <div class="form">
+    <input type="text" placeholder="nom du peripherique" id="in">
+    <input type="text" placeholder="ip du peripherique" id="ip">
+    <button type="button" onclick="getValue();">ajouter</button>
+    </div>
+
+
+    <div class="delet">
+    <button onclick="delet()">suprimer</button>
+    </div>
+
+<button onclick="affichage()">afficher les peripherique</button>
+
+<p id="p"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+<p id="p6"></p>
+<p id="p7"></p>
+<p id="p7"></p>
+<p id="p8"></p>
+<p id="p9"></p>
+  </body>
+</html>

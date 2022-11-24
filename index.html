@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <select name="fichier" id="fichier" class="fichier" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="">fichier</option>
+         <option value="http://192.168.1.45/code%20page%20web/index.html">acceuil</option>
+         <option value="http://192.168.1.45/code%20page%20web/set.html">parametre</option>
+         <option value="http://192.168.1.45/code%20page%20web/add.html">ajouter ou modifier</option>
+        </select>
+     </div>
+    <button id="reeset"  onclick="reeset()">actualiser la liste des peripheriques</button>
+<select name="idselect2" id="idselect2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+</select>
+<button class="on" onclick="requete1()">on</button>
+<button class="off" onclick="requete2()">off</button>
+    <p id="p"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+<p id="p6"></p>
+<p id="p7"></p>
+<p id="p7"></p>
+<p id="p8"></p>
+<p id="p9"></p>
+</body>
+</html>

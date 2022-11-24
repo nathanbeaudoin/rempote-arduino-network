@@ -1,0 +1,141 @@
+html{
+    text-align: center;
+    background: #1f1e1e;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+button{
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+}
+#ip{
+padding: 10px;
+border-radius: 30px;
+border-color: black;
+border-width: 3px;
+
+
+}
+#in{
+padding: 10px;
+border-radius: 30px;
+border-color: black;
+border-width: 3px;
+}
+#com{
+padding: 10px;
+border-radius: 30px;
+border-color: black;
+border-width: 3px;
+}
+a{
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.nav{
+background: #353333;
+margin-top: -8px;
+margin-left: -8px;
+margin-right: -8px;
+height:50px;
+}
+#reeset{
+margin-left: 100px;
+}
+#modif{
+    margin-left: 100px;
+}
+#p{
+    margin-left: 100px;
+}
+#p2{
+    margin-left: 100px;
+}
+#p3{
+    margin-left: 100px;
+}
+#p4{
+    margin-left: 100px;
+}
+#p5{
+    margin-left: 100px;
+}
+#p6{
+    margin-left: 100px;
+}
+#p7{
+    margin-left: 100px;
+}
+#p8{
+    margin-left: 100px;
+}
+#p9{
+    margin-left: 100px;
+}
+#set{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.img_set{
+    width: 30px;
+}
+.fichier{
+    margin-top: 10px;
+    padding: 5px;
+    color: black;
+    border-radius: 15px;
+    height: 35px;
+    width: 180px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav:hover .content{
+   transform: translateY(1054px);
+   visibility: visible;
+}
+.fichier:hover .separation{
+    visibility: visible;
+}
+
+.content a{
+    font-size: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.separation{
+color: #4b4646;
+margin-top: -8%;
+visibility: visible;
+}
+.content{
+    height: 150px; 
+    width: 200px;
+    margin-top: -1000px;
+    transition: all, 0.5s;
+    visibility: hidden;
+    background: #353333;
+    
+ }
+@media only screen and (max-width: 314px) {
+    .content{
+        height: 150px; 
+        width: 200px;
+        margin-top: -1000px;
+        transition: all, 0.5s;
+        visibility: hidden;
+        background: #353333;
+        
+     }
+     .nav{
+        background: #353333;
+        margin-top: -49%;
+        margin-left: -8px;
+        margin-right: -8px;
+        height:30px;
+        }
+  }
